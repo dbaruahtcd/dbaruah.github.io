@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #808080;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3em;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body .title a:hover {
+    text-decoration: underline;
+    color: #4d4d4d;
+  }
+
+body .title  a {
+  text-decoration: none;
+  color: #808080;
+}
+
+.subtitle {
+  padding: 5px;
+}
+
+.tags {
+  padding: 2px;
+}
+
+.social-buttons li {
+  display: inline-block;
+}
+
+.social-buttons a {
+  text-decoration: none;
+}
+
+.socials {
+  width: 25px;
+  margin: 15px;
+}

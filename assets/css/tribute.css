@@ -1,14 +1,14 @@
-
  h1, h2 {
-      text-color: blue;
-      text-align: center;
-      margin-top: 20px;
-      margin-bottom: 10px;
-      font-size: 30px;
-    }
-  body {
-    bankground-color: lightblue;
-  }
+  text-color: blue;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+body {
+  bankground-color: lightblue;
+}
 
   .thumbnail>img {
     /*
@@ -16,20 +16,18 @@
     heigth: auto;
     align: middle;
     */
-    display: inline;
-    padding: 4px;
-    margin-bottom: 20px;
-    line-height: 1.42857143;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    }
-
-
+  display: inline;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
 
 .title {
-    position: 'center'
-  }
+  position: 'center'
+}
 
 .container {
   padding-right: 15px;
@@ -66,4 +64,9 @@ blockquote {
   margin: 0 0 20px;
   font-size: 17.5px;
   border-left: 5px solid;
+}
+
+.page-header {
+  font-size: 20px;
+  padding: 10px 0 20px 50px;
 }
