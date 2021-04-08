@@ -48,7 +48,6 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
 }
 
-
 header {
   text-align: center;
   color: #FFF;
@@ -116,12 +115,16 @@ nav a:visited:active {
   font-size: 50px;
 }
 
+.date {
+  padding-bottom: 10px;
+}
 
 .section {
   padding: 4em 1em;
 
   margin: 0 auto;
   max-width: 540px;
+  max-width: 50%;
 }
 
 .section h2 {
@@ -139,14 +142,6 @@ nav a:visited:active {
 
 .section--blue h2 {
   color: #5995DA;
-}
-
-.section--red {
-  border-top: 1px solid #F09A9D;
-}
-
-.section--red h2 {
-  color: #D55C5F;
 }
 
 .section:first-of-type {
@@ -194,23 +189,18 @@ nav a:visited:active {
   background-color: #3F7CC4;
 }
 
+.blog-container {
+  display: flex;
+}
 
 @media only screen and (min-width: 580px) {
   .section {
     margin: 4em auto;
     padding: 2.5em 3em;
   }
-  .section--gray:first-of-type,
-  .section--gray {
-    border: 1px solid #D6D9DC;
-  }
   .section--blue:first-of-type,
   .section--blue {
-    border: 1px solid #B2D6FF;
-  }
-  .section--red:first-of-type,
-  .section--red {
-    border: 1px solid #F09A9D;
+    /* border: 1px solid #B2D6FF; */
   }
 }
 
